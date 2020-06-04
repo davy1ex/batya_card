@@ -3,10 +3,93 @@
     margin: 0;
 }
 
+a, a:visited, a:hover {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
+/* HEADER */
 .parallax {
-    background: url('/img/oreshek.jpg') no-repeat center;
+    background: url('../img/oreshek.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 500px;
+    height: 100vh;
 }
+header {
+    border-bottom: 1px solid white;
+    
+}
+
+header a, header a:visited, header a:hover {
+    color: white;
+    padding: 10px;
+}
+
+.header-wrapper {
+    width: 90%;
+    padding: 20px 0;
+    
+    line-height: 50px;
+
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: white;
+    font-size: 30px;
+}
+
+
+.whoami {
+    width: 90%;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+.whoami .name, .whoami .proffesion {
+    color: white;
+}
+
+.whoami .name {
+    font-size: 50px;
+    font-weight: bold;
+}
+.whoami .proffesion {
+    margin-top: 10px;
+    font-size: 30px;
+}
+/* HEADER */
+
+
+
+
+/* SECTION */
+.section {
+    width: 80%;
+    margin: auto;
+    height: 60vh;
+
+    margin-top: 100px;
+    
+    display: flex;
+    flex-direction: row;
+}
+.section .title {
+    font-size: 30px;
+    color: #515769;
+
+    width: 20%;
+}
+
+.section .text {
+    width: 70%;
+
+}
+
+
+/* SECTION */
